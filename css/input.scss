@@ -1,0 +1,92 @@
+$font-all: small-caps bold 24px/1 sans-serif;
+$title-color: #346b79;
+$txt-color: #333;
+$bg-color:#dff6ff;
+$big: 80px;
+$medium: 70px;
+$small: 25px;
+$padding: 5%;
+
+h1 {
+    font: 100% $font-all;
+    font-size: $big;
+    color:$title-color;
+    text-align: center; 
+    padding: $padding;
+    
+}
+h2 {
+    font: 100% $font-all;
+    font-size: $medium;
+    color:$title-color;
+    text-align: center; 
+    padding: $padding;
+}
+h3 {
+    font: 100% $font-all;
+    font-size: $small;
+    color:$title-color;
+    text-align: center; 
+    padding: $padding;
+    
+}
+p {
+    color:$txt-color;
+}
+span {
+    font-weight: bold;
+}
+img {
+    padding: $padding;
+    border-radius: 20%;
+}
+.interactiv-img:hover{
+    border: 4px solid $title-color;
+    padding: 20%;
+    background-color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
+
+div {
+
+}
+.backcolor{
+    background-color: $bg-color;
+    border-radius: 3%;
+
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: gainsboro;
+    width: 100%;
+
+}
+input{
+    margin-bottom: 10%;
+    
+}
+.boubton{
+    border: 2px solid $title-color;
+    color: $title-color;
+    background-color: $bg-color;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    font-size: $small;
+    border-radius: 15%;
+    display: block;
+    margin-left : auto;
+    margin-right : auto;
+    margin-top : 20px;
+}
+.boubton:hover{
+    color: $bg-color;
+    background-color: $title-color;
+}
+.space{
+    width: 100%;
+    height: 50px;
+}

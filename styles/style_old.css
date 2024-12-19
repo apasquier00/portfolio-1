@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+
+    color:red;
+    font-weight: bold;
+    }
+    h2{
+        text-align: center;
+    }
+h4{
+    text-align: center;
+    word-spacing: 20px;
+
+}
+table{
+    outline: auto;
+    background-color: whitesmoke;
+    padding: 1%;
+    table-layout: fixed;
+}
+td{
+    border: 0px solid black;
+}
+a{
+    text-align: center;
+    
+}
+span{
+    font-weight: bold;
+}
+body{
+    background-color: white;
+}
+p {
+    font-family: Georgia;
+    
+  }
+
+article{
+    border: 0px solid black;
+
+    height: 30%;
+    width: auto;
+}
+div{
+    border: 0px solid black;
+}
+.title{
+    border: 0px solid black;
+    font-size: 200%;
+    background-color: #f5f5f5;
+    text-align: center;
+    outline: auto;
+    color:red;
+}
+.form{
+    background-color: gainsboro;
+    text-align: left;
+    align-self: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    margin: auto;
+
+
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: gainsboro;
+    width: 100%;
+
+}
